@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Local secrets and Codex state
+.env
+.env.*
+!.env.example
+**/auth.json
+**/credentials.json
+**/*token*.json
+.codex/
+.codex-*/
+.codex-profiles-lite/
+*.sqlite
+*.sqlite-*
+*.db
+*.jsonl
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*~
