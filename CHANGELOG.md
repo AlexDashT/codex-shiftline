@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.0 — interactive session selection
+
+- `shiftline switch <profile>` now opens the native Codex conversation picker instead of immediately resuming the most recent session.
+- Added `--all` for cross-directory sessions and `--last` to opt into the former behavior.
+- Preserved profile and daemon-lock safety, with expanded tests.
+
 ## 1.0.0 — initial standalone release
 
 - Rebranded the independently maintained cxswap-inspired profile runner as **Codex Shiftline**.
